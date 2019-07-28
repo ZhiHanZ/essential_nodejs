@@ -1,4 +1,4 @@
-var math = require('./math');
+const math = require('./math');
 exports.increment = function(val) {
-    return math.add(val, 1);
+  return math.add(val, 1);
 };

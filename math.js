@@ -1,10 +1,10 @@
 exports.add = function() {
-    var sum = 0,
-        i = 0,
-        args = arguments,
-        l = args.length;
-        while(i < l){
-            sum += args[i++];
-        }
-        return sum;
+  let sum = 0;
+  let i = 0;
+  args = arguments,
+  l = args.length;
+  while (i < l) {
+    sum += args[i++];
+  }
+  return sum;
 };
